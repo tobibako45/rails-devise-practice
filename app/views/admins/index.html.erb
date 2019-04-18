@@ -1,0 +1,23 @@
+<h1>Admins#index</h1>
+<p>Find me in app/views/admins/index.html.erb</p>
+
+
+<ul class="users">
+  <% @admins.each do |admin| %>
+    <li>
+      <%= link_to admin.email, admin %>
+    </li>
+  <% end %>
+</ul>
+
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+<ul class="users">
+  <% @users.each do |user| %>
+    <li>
+      <%= link_to user.email, user %>
+    </li>
+  <% end %>
+</ul>
